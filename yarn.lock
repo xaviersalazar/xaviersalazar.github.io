@@ -4470,6 +4470,11 @@
   "resolved" "https://registry.npmjs.org/flatted/-/flatted-3.2.7.tgz"
   "version" "3.2.7"
 
+"flatten-tailwindcss-theme@^1.0.0":
+  "integrity" "sha512-7B795m0qzLF0yQYGkfGanO3NOisEI4EaVObnr3DBq7Qc8Ygq4yWGa0Gpx2rtb10NSgIcimUqu4Xaqh+0bkC87w=="
+  "resolved" "https://registry.npmjs.org/flatten-tailwindcss-theme/-/flatten-tailwindcss-theme-1.0.0.tgz"
+  "version" "1.0.0"
+
 "follow-redirects@^1.0.0":
   "integrity" "sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.1.tgz"
@@ -8288,7 +8293,14 @@
   "resolved" "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
   "version" "3.2.4"
 
-"tailwindcss@^3.0.2", "tailwindcss@^3.1.8":
+"tailwindcss-text-fill@^0.2.0":
+  "integrity" "sha512-3lo6a/9jXSx4+24onFv7xnHO/1DZCk6qM+LoCsEUxn79sAeoc/ts74LSH0vRhLvWe4Yn+YglFfT+lxDv6wn2sQ=="
+  "resolved" "https://registry.npmjs.org/tailwindcss-text-fill/-/tailwindcss-text-fill-0.2.0.tgz"
+  "version" "0.2.0"
+  dependencies:
+    "flatten-tailwindcss-theme" "^1.0.0"
+
+"tailwindcss@^3.0.2", "tailwindcss@^3.1.8", "tailwindcss@>=2.0.0":
   "integrity" "sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.1.8.tgz"
   "version" "3.1.8"

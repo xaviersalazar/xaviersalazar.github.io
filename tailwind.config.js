@@ -11,5 +11,5 @@ module.exports = {
       black: 900,
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-text-fill")],
 };
