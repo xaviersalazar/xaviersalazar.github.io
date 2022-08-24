@@ -10,5 +10,6 @@ html {
   padding: 0;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
   font-family: "Work Sans", sans-serif;
 }
