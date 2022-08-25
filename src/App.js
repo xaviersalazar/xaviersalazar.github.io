@@ -3,6 +3,7 @@ import {
   IoLogoLinkedin,
   IoMailOpenOutline,
 } from "react-icons/io5";
+import Skills from "./Skills";
 
 const App = () => (
   <div className="w-full mx-auto mt-8 mb-0 text-center">
@@ -18,7 +19,7 @@ const App = () => (
         <h1 className="text-2xl font-bold">Software Engineer</h1>
         <p className="text-md font-extraLight">Full-stack | Front-end</p>
         <p className="text-md font-extraLight">Currently at Method</p>
-        <div className="pic-container opacity-50 rounded-full absolute bottom-[-3rem] right-[-3.5rem] z-10">
+        <div className="pic-container opacity-75 rounded-full absolute bottom-[-3rem] right-[-3.5rem] z-10">
           <img
             className="gradient-border"
             width={320}
@@ -26,10 +27,11 @@ const App = () => (
             alt="selfie"
           />
         </div>
+        <Skills />
         <div className="flex gap-2 mt-auto z-50">
-          <IoLogoGithub className="text-xl" />
-          <IoLogoLinkedin className="text-xl" />
-          <IoMailOpenOutline className="text-xl" />
+          <IoLogoGithub className="text-2xl" />
+          <IoLogoLinkedin className="text-2xl" />
+          <IoMailOpenOutline className="text-2xl" />
         </div>
       </div>
     </div>
